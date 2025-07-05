@@ -51,20 +51,19 @@ BEGIN
  Bar[2]:=
  BEGIN
   BarID:=59414;
-  Visible:=0;
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 958 185";
+  MRUDockPos:="1 5 1536 185";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 768";
+  MRUFloatPos:="-2147483648 832";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="957 180";
+  MRUHorzDock:="1535 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -77,10 +76,10 @@ BEGIN
  BEGIN
   BarID:=59412;
   Visible:=0;
-  Pos:="476 5";
+  Pos:="572 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="476 5 944 185";
+  MRUDockPos:="572 5 1136 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -89,7 +88,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="468 25";
+  MRUHorzDock:="564 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -105,7 +104,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 470 185";
+  MRUDockPos:="1 5 566 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=36756;
@@ -114,7 +113,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="500000";
   MRUFloat:="300 180";
-  MRUHorzDock:="469 25";
+  MRUHorzDock:="565 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -129,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 205 850";
+  MRUDockPos:="0 -2 216 447";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -139,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="205 852";
+  MRUVertDock:="216 449";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -154,16 +153,16 @@ BEGIN
   Pos:="0 0";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 0 0 14";
+  MRUDockPos:="0 0 0 0";
   MRUFloatStyle:=4;
-  MRUFloatPos:="-2147483648 15";
+  MRUFloatPos:="-2147483648 0";
   Style:=36756;
   ExStyle:=3889;
   PrevFloating:=0;
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="300 25";
+  MRUHorzDock:="300 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -173,7 +172,7 @@ BEGIN
   ResourceID:=0;
  END;
  Bars:=7;
- Screen:="1280 800";
+ Screen:="1536 864";
 END;
 ProjectTree:=
 BEGIN
@@ -183,13 +182,29 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=54;
- Selected:=24;
+ Selected:=17;
+ ScrollPos:="0 1";
 END;
 Frame[0]:=
 BEGIN
- Norm:="0000 0000 0871 0384";
+ Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.StatesTransition!StatesTransition";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.PlaceWidget!PlaceWidget";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=8;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[1]:=
+BEGIN
+ Norm:="0104 0104 1288 0421";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
  Type:=1;
  Views:=
  BEGIN
@@ -199,38 +214,96 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[1]:=
+Frame[2]:=
 BEGIN
- Norm:="0000 0000 0807 0388";
+ Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
- Path:="C:\Users\ryanl\Manf3510\Assignment1\Manf3510-Assignment1\Assignment1-Program.cxp";
- Access:="PROJECT:!NewProject.Resources.NewResource1.Symbols";
- Type:=3;
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.SendPallet!SendPallet";
+ Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Mag:=1;
-   Extra:=
-   BEGIN
-    Type:="CSymbolTableListCtrlState";
-    Style:=1;
-    NumCols:=7;
-    Width[0]:=150;
-    Width[1]:=90;
-    Width[2]:=100;
-    Width[3]:=1;
-    Width[4]:=84;
-    Width[5]:=48;
-    Width[6]:=200;
-   END;
   END;
   nViews:=1;
  END;
 END;
-Frame[2]:=
+Frame[3]:=
 BEGIN
- Norm:="0026 0026 1326 0616";
+ Norm:="0130 0130 1314 0447";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Reset!Reset";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[4]:=
+BEGIN
+ Norm:="0000 0000 1184 0317";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Standby!Standby";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[5]:=
+BEGIN
+ Norm:="0078 0078 1184 0504";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadPallet!LoadPallet";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=3;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[6]:=
+BEGIN
+ Norm:="0026 0026 1210 0343";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadWidget!LoadWidget";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=3;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[7]:=
+BEGIN
+ Norm:="0052 0052 1236 0369";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ObtainWidget!ObtainWidget";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=5;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[8]:=
+BEGIN
+ Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1!NewProgram1.Symbols";
  Type:=3;
@@ -251,95 +324,9 @@ BEGIN
     Width[4]:=84;
     Width[5]:=48;
     Width[6]:=200;
-    SortCol:=5;
+    SortCol:=2;
     SortAscending:=false;
    END;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[3]:=
-BEGIN
- Norm:="0260 0260 0667 0841";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadPallet!LoadPallet";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[4]:=
-BEGIN
- Norm:="0182 0182 0989 0570";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.MoveWidget!MoveWidget";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[5]:=
-BEGIN
- Norm:="0026 0026 0513 0607";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ScaraReturnHome!ScaraReturnHome";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-  END;
-  nViews:=1;
- END;
-END;
-Frame[6]:=
-BEGIN
- Norm:="0000 0000 0544 0581";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.PlaceWidget!PlaceWidget";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=15;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[7]:=
-BEGIN
- Norm:="0234 0234 0641 0815";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Run!Run";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=1;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
-BEGIN
- Norm:="0130 0130 0937 0518";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadWidget!LoadWidget";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
   END;
   nViews:=1;
  END;
@@ -347,15 +334,15 @@ END;
 Frame[9]:=
 BEGIN
  Max:=true;
- Norm:="0078 0078 0885 0466";
+ Norm:="0052 0052 1158 0478";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ObtainWidget!ObtainWidget";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.States_Transition!States_Transition";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=2;
+   Yscroll:=24;
   END;
   nViews:=1;
  END;
