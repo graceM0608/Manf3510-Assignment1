@@ -54,7 +54,7 @@ BEGIN
   Pos:="1 5";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="1 5 1536 185";
+  MRUDockPos:="1 5 897 185";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 832";
   Style:=36756;
@@ -63,7 +63,7 @@ BEGIN
   MDIChild:=0;
   PctWidth:="1000000";
   MRUFloat:="300 180";
-  MRUHorzDock:="1535 180";
+  MRUHorzDock:="896 180";
   MRUVertDock:="300 180";
   MRUDockingState:=0;
   DockingStyle:=61440;
@@ -128,7 +128,7 @@ BEGIN
   Pos:="0 -2";
   Docking:=1;
   MRUDockID:=0;
-  MRUDockPos:="0 -2 216 447";
+  MRUDockPos:="0 -2 216 438";
   MRUFloatStyle:=4;
   MRUFloatPos:="-2147483648 0";
   Style:=8084;
@@ -138,7 +138,7 @@ BEGIN
   PctWidth:="1000000";
   MRUFloat:="300 180";
   MRUHorzDock:="300 180";
-  MRUVertDock:="216 449";
+  MRUVertDock:="216 440";
   MRUDockingState:=0;
   DockingStyle:=61440;
   TypeID:=0;
@@ -182,24 +182,9 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=54;
- Selected:=28;
+ Selected:=17;
 END;
 Frame[0]:=
-BEGIN
- Norm:="0052 0052 1158 0478";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.States_Transition!States_Transition";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=9;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[1]:=
 BEGIN
  Norm:="0130 0130 1314 0447";
  Min:="-001 -001";
@@ -214,7 +199,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[2]:=
+Frame[1]:=
 BEGIN
  Norm:="0000 0000 1184 0317";
  Min:="-001 -001";
@@ -228,7 +213,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[3]:=
+Frame[2]:=
 BEGIN
  Norm:="0104 0104 1288 0421";
  Min:="-001 -001";
@@ -242,7 +227,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[4]:=
+Frame[3]:=
 BEGIN
  Norm:="0130 0130 1314 0447";
  Min:="-001 -001";
@@ -256,7 +241,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[5]:=
+Frame[4]:=
 BEGIN
  Norm:="0000 0000 1184 0317";
  Min:="-001 -001";
@@ -270,7 +255,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[6]:=
+Frame[5]:=
 BEGIN
  Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
@@ -284,7 +269,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[7]:=
+Frame[6]:=
 BEGIN
  Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
@@ -314,7 +299,7 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[8]:=
+Frame[7]:=
 BEGIN
  Norm:="0052 0052 1236 0369";
  Min:="-001 -001";
@@ -329,9 +314,8 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[9]:=
+Frame[8]:=
 BEGIN
- Max:=true;
  Norm:="0026 0026 1210 0343";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.SendPallet!SendPallet";
@@ -340,7 +324,21 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=6;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0052 0052 1158 0478";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.States_Transition!States_Transition";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
   END;
   nViews:=1;
  END;
