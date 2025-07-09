@@ -182,43 +182,43 @@ BEGIN
  Item[3]:=13;
  ItemCount:=4;
  Sumcheck:=54;
- Selected:=17;
- ScrollPos:="0 1";
+ Selected:=28;
 END;
 Frame[0]:=
 BEGIN
- Norm:="0078 0078 1262 0395";
+ Norm:="0052 0052 1158 0478";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.PlaceWidget!PlaceWidget";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.States_Transition!States_Transition";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=8;
+   Yscroll:=9;
   END;
   nViews:=1;
  END;
 END;
 Frame[1]:=
 BEGIN
- Norm:="0104 0104 1288 0421";
+ Norm:="0130 0130 1314 0447";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.END!END";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Run!Run";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
+   Yscroll:=1;
   END;
   nViews:=1;
  END;
 END;
 Frame[2]:=
 BEGIN
- Norm:="0078 0078 1262 0395";
+ Norm:="0000 0000 1184 0317";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.SendPallet!SendPallet";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Stop!Stop";
  Type:=1;
  Views:=
  BEGIN
@@ -230,9 +230,9 @@ BEGIN
 END;
 Frame[3]:=
 BEGIN
- Norm:="0130 0130 1314 0447";
+ Norm:="0104 0104 1288 0421";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Reset!Reset";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.MoveWidget!MoveWidget";
  Type:=1;
  Views:=
  BEGIN
@@ -244,9 +244,9 @@ BEGIN
 END;
 Frame[4]:=
 BEGIN
- Norm:="0000 0000 1184 0317";
+ Norm:="0130 0130 1314 0447";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.Standby!Standby";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadWidget!LoadWidget";
  Type:=1;
  Views:=
  BEGIN
@@ -258,7 +258,7 @@ BEGIN
 END;
 Frame[5]:=
 BEGIN
- Norm:="0078 0078 1184 0504";
+ Norm:="0000 0000 1184 0317";
  Min:="-001 -001";
  Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadPallet!LoadPallet";
  Type:=1;
@@ -266,42 +266,25 @@ BEGIN
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=3;
   END;
   nViews:=1;
  END;
 END;
 Frame[6]:=
 BEGIN
- Norm:="0026 0026 1210 0343";
+ Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.LoadWidget!LoadWidget";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ScaraReturnHome!ScaraReturnHome";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=3;
   END;
   nViews:=1;
  END;
 END;
 Frame[7]:=
-BEGIN
- Norm:="0052 0052 1236 0369";
- Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.ObtainWidget!ObtainWidget";
- Type:=1;
- Views:=
- BEGIN
-  View[0]:=
-  BEGIN
-   Yscroll:=5;
-  END;
-  nViews:=1;
- END;
-END;
-Frame[8]:=
 BEGIN
  Norm:="0078 0078 1262 0395";
  Min:="-001 -001";
@@ -331,18 +314,33 @@ BEGIN
   nViews:=1;
  END;
 END;
-Frame[9]:=
+Frame[8]:=
 BEGIN
- Max:=true;
- Norm:="0052 0052 1158 0478";
+ Norm:="0052 0052 1236 0369";
  Min:="-001 -001";
- Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.States_Transition!States_Transition";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.PlaceWidget!PlaceWidget";
  Type:=1;
  Views:=
  BEGIN
   View[0]:=
   BEGIN
-   Yscroll:=24;
+   Yscroll:=4;
+  END;
+  nViews:=1;
+ END;
+END;
+Frame[9]:=
+BEGIN
+ Max:=true;
+ Norm:="0026 0026 1210 0343";
+ Min:="-001 -001";
+ Access:="PROGRAM:NewProject.Resources.NewResource1.Programs.NewProgram1.Sections.SendPallet!SendPallet";
+ Type:=1;
+ Views:=
+ BEGIN
+  View[0]:=
+  BEGIN
+   Yscroll:=6;
   END;
   nViews:=1;
  END;
